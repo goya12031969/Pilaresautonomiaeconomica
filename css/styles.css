@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: #8f8f8f;
+}
+
+.contenedor {
+    width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background: rgb(32, 59, 55);
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li {
+    width: 25%;
+    height: 80px;
+    border: 3px solid #db0fd160;
+    float: left;
+}
+
+header nav ul li a {
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 25px;
+    color: #0c0c0c;
+}
+
+header nav ul li a:hover {
+    background: #3406d8;
+    height: 80px;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: #db0f0f;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main {
+    width: 700px;
+    background: #fff;
+    float: left;
+}
+
+.main .imagen {
+    width: 100%;
+}
+
+.main .imagen img {
+    width: 100%;
+    vertical-align: top;
+    border: #3406d8;
+}
+
+.main .posts {
+    padding: 40px;
+}
+
+.main .posts article h2 {
+    margin-bottom: 20px;
+    color: #3406d8;
+}
+
+.main .posts article p {
+    margin-bottom: 15px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+aside {
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: #fff;
+    float: left;
+}
+
+aside .widget {
+    margin-bottom: 6px;
+}
+
+aside .widget .titulo {
+    color: #0ce1f0;
+    border-bottom: 2px solid #ff8000;
+    margin-bottom: 10px;
+}
+
+aside .widget .subtitulo {
+    color: #ff00d4;
+    border-bottom: 2px solid #ff8000;
+    margin-bottom: 10px;
+}
+
+aside .widget .parrafo {
+    text-align: justify;
+    letter-spacing: normal;
+    color: aqua;
+}
+
+aside .widget ul {
+    list-style: none;
+}
+
+aside .widget ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 11px 0;
+}
+
+aside .widget ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside .widget ul li a:hover {
+    color: #8f8f8f;
+}
+
+aside .widget p {
+    line-height: 27px;
+}
+
+footer {
+    width: 1000px;
+    clear: both;
+    background: #0c0c0c;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    display: block;
+}
